@@ -84,33 +84,8 @@
             <label class="form-label">Image</label>
             <input name="image" type="file" value="{{$data->image}}"> <br><br><br>
 
-            <div class="form-check">
-                <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="" id="" value="checkedValue" checked>
-                Shower
-              </label>
-            </div>
-
-            <div class="form-check">
-                <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="" id="" value="checkedValue" checked>
-                Pool
-              </label>
-            </div>
-
-            <div class="form-check">
-                <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="" id="" value="checkedValue" checked>
-                Breakfast
-              </label>
-            </div>
-
-            <div class="form-check">
-                <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="" id="" value="checkedValue" checked>
-                Wifi
-              </label>
-            </div>
+            <label class="form-label">facilitas</label>
+            <input name="Fasilitas" type="text" value="{{$data->Fasilitas}}"> <br><br>
 
             <label class="form-label">Synopsis</label>
             <textarea name="Synopsis" class="textarea" cols="5">{{$data->Synopsis}} </textarea> <br><br>
