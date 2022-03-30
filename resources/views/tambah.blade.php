@@ -5,6 +5,38 @@
 
 
     <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: montserrat;
+  color: White;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+                .hotel{
+                position: absolute;
+                top: 3%;
+                left: 5%;
+                
+            }
         .button{
             padding: 1.3em 3em;
             font-size: 12px;
@@ -25,6 +57,7 @@
             display: inline-block;
             padding: 2em;
             font-family: Montserrat;
+            box-shadow: 1px 1px 1px #999;
             
         }
         .form-tambah input[type="text"]{
@@ -33,7 +66,7 @@
             color: #333;
             font-size: 14px;
             margin-bottom: 15px;
-            padding: 0.5em 1em 0.5em 0;
+            padding: 1em 1em 1em 0;
             width: 200px;
         }
         .textarea{
@@ -54,7 +87,7 @@
             .button2{
             position:absolute;
             left:36%;
-            top: 2%;
+            top: 10%;
         }
         .img3{
             width: 100%;
@@ -64,6 +97,12 @@
 </head>
 
 <body>
+
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/home">Hotel</a></li>
+        <li class="hotel"><img src="">Hotelio</a></li>
+      </ul>
 
     <div class="button2">
         <a href="/home"> <img src="{{ asset('img/back.png') }}"  class="img3"> </a>
@@ -95,5 +134,6 @@
          </center>
             </form>
         </div>
+        
 </body>
 </html>

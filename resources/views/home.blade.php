@@ -50,6 +50,7 @@ li a:hover {
                 flex-direction: row;
                 margin-top: 20px;
                 /* border: 1px solid black; */
+
             }
             .hotels{
                 margin-left: 10px;
@@ -58,6 +59,8 @@ li a:hover {
                 display: flex;
                 flex-direction: column;
                 /* border: 1px solid black; */
+                box-shadow: 1px 1px 1px #999;
+
             }
             .hotels p{
                 /* border: 1px solid black; */
@@ -98,9 +101,6 @@ li a:hover {
          <a href="/tambah"> <img src="{{ asset('img/circle.png') }}" class="img"> </a>
       </div>
       
-
-
-
 
 </body>
 </html>
